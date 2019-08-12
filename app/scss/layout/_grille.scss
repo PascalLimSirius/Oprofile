@@ -1,0 +1,40 @@
+.grille {
+        margin: 10%;
+        position: relative;
+    &__div{
+        border: 1px solid lightgrey;
+        border-radius: 2px;
+        padding: 7%;
+    }
+    i {
+        position: absolute;
+        left: 90%;
+    }
+    h2 {
+        margin: 10% 0 5% 0;
+    }
+
+    
+}
+
+@media (max-width: 1000px) {
+    .grille {
+        div:last-child, div:nth-last-child(2){
+            display: none;
+        }
+    }
+}
+
+@media (min-width: 1000px) {
+    .grille {
+        display: flex;
+        flex-wrap: wrap;
+        &__div{
+            width: 35%;
+        }
+        i {
+            position: unset;
+        }
+        
+    }
+}

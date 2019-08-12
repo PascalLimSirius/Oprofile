@@ -1,0 +1,17 @@
+.header {
+    height: 100vh;
+    margin: 0.5em;
+    position: relative;
+    &__menu__fixed {
+        width: 90%;
+        display: flex;
+        position: fixed;
+        justify-content: space-between;
+    }
+    &__article {
+        position: absolute;
+        top: 30%;
+        left: 5%;
+        width: 50%;
+    }
+} 

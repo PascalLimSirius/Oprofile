@@ -1,5 +1,21 @@
 $fa-font-path:  '~font-awesome/fonts';
+@import
+    'abstracts/vars';
 
 @import
     '~reset-css/sass/reset',
     '~font-awesome/scss/font-awesome';
+
+
+@import
+    'base/base';
+
+@import
+    'layout/articles',
+    'layout/footer',
+    'layout/grille',
+    'layout/header';
+
+@import
+    'shame'
+

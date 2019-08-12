@@ -1,0 +1,43 @@
+.footer {
+    margin: 5%;
+    &__div {
+        margin-top: 5%;
+        display: flex;
+        i {
+            margin-left: 5%;
+        }
+    }
+    &__info {
+        margin-left: 5%;
+        h3 {
+            margin-top: 4%;
+        }
+        p{
+            margin-top: 10%;
+        }
+    }
+        
+}
+.form {
+    &__div{
+        display: grid;
+        margin-bottom: 4%;
+    }
+}
+
+@media (min-width: 1000px) {
+    .footer{
+        .form {
+            margin: 0% 5% 0 5%;
+            width: 65%;
+            #form__name{
+            }
+            #form__email{
+            }
+        }
+        display: flex;
+        &__contact {
+            width: 30%;
+        }
+    }
+}
