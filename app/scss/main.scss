@@ -10,6 +10,18 @@ $fa-font-path:  '~font-awesome/fonts';
 @import
     'base/base';
 
+
+@import
+    'components/header_logo',
+    'components/header__social',
+    'components/header__article',
+    'components/header__menu',
+    'components/grille__content',
+    'components/articles',
+    'components/footer__contact',
+    'components/footer__form';
+
+
 @import
     'layout/articles',
     'layout/footer',

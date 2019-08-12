@@ -1,0 +1,19 @@
+.grille {
+    &__div{
+        background-color: $grey;
+        h2 {
+            font-weight: bold;
+            font-size: 1.5em;
+        }
+        i {
+            width: 60px;
+            height: 60px;
+            background-color: $blue;
+            color: white;
+            font-size: 2em;
+            border-radius: 10%;
+            vertical-align: center;
+            padding: 20px 0px 0px 30px;
+        }
+    }
+}

@@ -1,17 +1,30 @@
 .header {
+    background-image: url('/images/see.jpg');
+    background-size: cover;
     height: 100vh;
-    margin: 0.5em;
     position: relative;
+    z-index: 1;
+    &__color {
+        z-index: 10;
+        background: rgba(0, 0, 0, 0.5);
+        background-size: cover;
+        height: 100vh;
+    }
     &__menu__fixed {
-        width: 90%;
+        width: 100%;
         display: flex;
         position: fixed;
         justify-content: space-between;
+        margin: 20px;
     }
     &__article {
         position: absolute;
-        top: 30%;
-        left: 5%;
+        top: 40%;
+        left: 7%;
         width: 50%;
     }
-} 
+    &__menu {
+        margin-right: 7%;
+    }
+}
+ 

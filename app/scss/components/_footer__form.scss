@@ -1,0 +1,31 @@
+.footer__contact {
+    i {
+        color: $bluecontact;
+        font-size: 1.5em;
+    }
+    div {
+        h3 {
+            font-size: 1.3em;
+        }
+        p {
+            color: $bluecontact;
+        }
+    }
+}
+
+.footer__div {
+    padding-bottom: 5%;
+    border-bottom: 0.5px solid $bluecontact;
+}
+
+@media (min-width: 1000px) {
+    .footer__contact{
+        border-left: 0.5px solid $bluecontact;
+        div:last-child{
+            border: none;
+        }
+    }
+    .footer__div{
+        padding: 10%;
+    }
+}
