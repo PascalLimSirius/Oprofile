@@ -76,6 +76,18 @@ let config = {
           }
         },
       },
+      // Permet d'importer les images
+      {
+        test: /\.(jpg|jpeg|png|gif|svg)$/,
+        use: {
+          loader: "file-loader",
+          options: {
+            name: "[name].[ext]", // Nom du fichier généré
+            outputPath: "images/", // Destination du fichier généré dans le répertoire public
+            publicPath: "../images" // Chemin relatif depuis le fichier CSS vers le dossier des images
+          }
+        }
+      }
     ]
   },
   // Configuration du serveur de développement qui rechargera automatiquement les contenus lors d'un changement
